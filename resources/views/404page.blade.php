@@ -20,7 +20,7 @@
           How you got here is a mystery. But you can click the button below
           to go back to the homepage.
         </p>
-       <button style="color: blue;"> get to index</button>
+      <a href="/"> <button style="color: blue;"> get to index</button></a>
       </div>
     </div>
   </div>

@@ -10,11 +10,13 @@
     </style>
 </head>
 <body>
+    
     <header>
         <h1>رزومه من</h1>
         <p>نام: عارف جامی </p>
         <p>ایمیل: amirmp2332@gmail.com </p>
         <p>تلفن: 09155631125</p>
+        <a href="/login"><div id="login">login</div></a>
     </header>
 
     <section>
