@@ -123,4 +123,19 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Class Aliases
+    |--------------------------------------------------------------------------
+    |
+    | This array of class aliases will be registered when this application is
+    | started. Feel free to add your own aliases here.
+    |
+    */
+
+    'aliases' => [
+        // سایر aliases ها
+        'Captcha' => Mews\Captcha\Facades\Captcha::class,
+    ],
+
 ];
