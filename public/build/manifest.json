@@ -1,0 +1,24 @@
+{
+  "resources/css/404page.css": {
+    "file": "assets/404page-BAUhE2v2.css",
+    "src": "resources/css/404page.css",
+    "isEntry": true
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-DA-LdYsJ.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/404page.js": {
+    "file": "assets/404page-DKnVRoqO.js",
+    "name": "404page",
+    "src": "resources/js/404page.js",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-Xaw6OIO1.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}

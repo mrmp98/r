@@ -99,11 +99,9 @@ return [
 
     'key' => env('APP_KEY'),
 
-    'previous_keys' => [
-        ...array_filter(
-            explode(',', env('APP_PREVIOUS_KEYS', ''))
-        ),
-    ],
+    'previous_keys' => array_filter(
+        explode(',', env('APP_PREVIOUS_KEYS', ''))
+    ),
 
     /*
     |--------------------------------------------------------------------------
@@ -134,7 +132,7 @@ return [
     */
 
     'aliases' => [
-        // سایر aliases ها
+        // Other aliases
         'Captcha' => Mews\Captcha\Facades\Captcha::class,
     ],
 
