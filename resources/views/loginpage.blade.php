@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fa">
 <head>
@@ -42,8 +43,11 @@
                 </div>
                 <input type="email" name="email" placeholder="Email"  required>
                 <input type="password" name="password" placeholder="Password" required>
-				<img src="{{ captcha_src() }}" alt="Captcha Image">
-<input type="text" name="captcha" required>
+                <div>
+        <label for="captcha">CAPTCHA</label>
+        <img src="{{ captcha_src() }}" alt="CAPTCHA">
+        <input type="text" name="captcha" id="captcha" required>
+    </div>
                 <button type="submit">Sign up</button>
             </form>
         </div>
