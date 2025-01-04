@@ -8,7 +8,8 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('loginpage');
 });
-Route::POST('login' , [loginpage::class , 'index']);
+Route::POST('/login' , [loginpage::class , 'login']);
+Route::POST('/signup' , [loginpage::class , 'signup']);
 
 
 
