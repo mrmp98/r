@@ -33,7 +33,7 @@
         <input type="checkbox" id="chk" aria-hidden="true">
 
         <div class="signup">
-            <form method="POST" action="signup"> <!-- مسیر ثبت‌نام -->
+            <form method="POST" action="/signup"> <!-- مسیر ثبت‌نام -->
                 @csrf
                 <div class="form-group">
                     <input type="text" id="username" name="username" placeholder="User name" required>
@@ -49,7 +49,7 @@
         </div>
 
         <div class="login">
-            <form method="POST" action="login" > <!-- مسیر ورود -->
+            <form method="POST" action="/login" > <!-- مسیر ورود -->
                 @csrf
                 <label for="chk" aria-hidden="true">Login</label>
                 <input type="email" name="email" placeholder="Email" required>
