@@ -8,7 +8,7 @@ class Loginrequest extends FormRequest
 {
     public function authorize()
     {
-        return true; // اجازه می‌دهد که این درخواست مجاز باشد
+        return true; 
     }
 
     public function rules()
@@ -27,7 +27,7 @@ class Loginrequest extends FormRequest
             'email.required' => 'لطفاً ایمیل را وارد کنید.',
             'email.email' => 'لطفاً یک ایمیل معتبر وارد کنید.',
             'password.required' => 'لطفاً رمز عبور را وارد کنید.',
-           
+            
         ];
     }
 }
